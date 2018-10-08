@@ -1,0 +1,29 @@
+zero-lliurex-openboard (0.5) xenial; urgency=medium
+
+  * Migrated to EPI
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 18 May 2018 13:27:01 +0200
+
+zero-lliurex-openboard (0.4) xenial; urgency=medium
+
+  * Fixed bug with @ in valencian language
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 18 May 2018 13:09:23 +0200
+
+zero-lliurex-openboard (0.3) xenial; urgency=medium
+
+  * Added translations
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 20 Dec 2017 16:05:23 +0100
+
+zero-lliurex-openboard (0.2) xenial; urgency=high
+
+  * Delete original files 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Wed, 15 Nov 2017 14:32:59 +0100
+
+zero-lliurex-openboard (0.1) xenial; urgency=high
+
+  * Initial release.
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Wed, 15 Nov 2017 10:16:47 +0100
