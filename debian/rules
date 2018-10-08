@@ -10,10 +10,5 @@
 #export DH_VERBOSE=1
 
 %:
-	dh $@ --with llxsrc,llxdev
-	
-	
-override_dh_install:
+	dh $@ --with llxsrc,zero
 
-	dllxh_install
-	dh_install
