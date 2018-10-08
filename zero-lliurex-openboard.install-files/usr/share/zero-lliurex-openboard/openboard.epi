@@ -1,0 +1,7 @@
+{
+	"type":"apt",
+	"pkg_list": [{"name":"openboard","key_store":"zero-lliurex-openboard"}], 
+	"script": {"name":"/usr/share/zero-lliurex-openboard/openboard_script", "remove":true},
+	"zomando":"zero-lliurex-openboard"
+	
+	}

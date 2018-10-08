@@ -1,0 +1,16 @@
+Name=zero-lliurex-openboard
+Name[es]=Instalador de OpenBoard
+Name[qcv]=Instal·lador de openBoard
+Name[ca_ES]=Instal·lador de openBoard
+Comment=OpenBoard Installer
+Comment[es]=Instalador de OpenBoard
+Comment[qcv]=Instal·lador de OpenBoard
+Comment[ca_ES]=Instal·lador de OpenBoard
+Icon=openboard
+Category=Software
+ScriptPath=zero-lliurex-openboard.zmd
+Groups=adm;admins;teachers
+Using=pe
+Service=True
+Modal=True
+Gnome-terminal=True 

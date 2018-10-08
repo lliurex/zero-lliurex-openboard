@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop-application">
+<id>zero-lliurex-openboard</id>
+<metadata_license>CC0-1.0</metadata_license>
+<name>zero-lliurex-openboard</name>
+<name xml:lang="es">Instalador de OpenBoard</name>
+<name xml:lang="ca_ES.UTF-8@valencia">Instal·lador de openBoard</name>
+<name xml:lang="ca_ES@valencia">Instal·lador de OpenBoard</name>
+<name xml:lang="ca_ES">Instal·lador de openBoard</name>
+<summary>openBoard Installer</summary>
+<summary xml:lang="es">Instalador de openBoard</summary>
+<summary xml:lang="ca_ES.UTF-8@valencia">Instal·lador de OpenBoard</summary>
+<summary xml:lang="ca_ES@valencia">Instal·lador de OpenBoard</summary>
+<summary xml:lang="ca_ES">Instal·lador de OpenBoard</summary>
+<categories>
+<category>Lliurex</category>
+<category>Zomando</category>
+<category>Utility</category>
+</categories>
+<icon type="cached">openboard</icon>
+
+<keywords>
+<keyword>zero</keyword>
+<keyword>lliurex</keyword>
+<keyword>openboard</keyword>
+<keyword>zero-lliurex-openboard</keyword>
+<keyword>Zomando</keyword>
+<keyword>flash</keyword>
+<keyword>actionscript</keyword>
+<keyword>javascript</keyword>
+<keyword>html</keyword>
+</keywords>
+<keywords xml:lang="es">
+<keyword>Instalador</keyword>
+<keyword>OpenBoard</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="ca_ES.UTF-8@valencia">
+<keyword>Instal·lador</keyword>
+<keyword>openboard</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="ca_ES@valencia">
+<keyword>Instal·lador</keyword>
+<keyword>openboard</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="ca_ES">
+<keyword>Zomando</keyword>
+
+</keywords>
+</component>

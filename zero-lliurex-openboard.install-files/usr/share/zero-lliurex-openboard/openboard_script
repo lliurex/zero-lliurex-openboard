@@ -1,0 +1,43 @@
+#!/bin/bash
+
+
+ACTION="$1"
+
+case $ACTION in
+
+	preInstall)
+		
+		echo "Checking architecture..."
+		MACHINE_TYPE=$(uname -m)
+		if [ "$MACHINE_TYPE" == "x86_64" ]; then
+			echo "Architecture 64 bits"
+		else
+			echo "Openboard can only be installed on 64-bit machines"
+			exit 1
+		fi
+	;;
+
+	postInstall)
+
+		mv /usr/bin/openboard /usr/bin/openboard_orig
+		echo '#!/bin/bash' > /usr/bin/openboard
+		echo 'if [[ $LANG = *"@"* ]]; ' >> /usr/bin/openboard
+		echo 'then' >> /usr/bin/openboard
+		echo 'LANG=ca_ES.UTF-8; /usr/bin/openboard_orig $1' >> /usr/bin/openboard
+		echo 'else' >> /usr/bin/openboard
+		echo '/usr/bin/openboard_orig' >> /usr/bin/openboard
+		echo 'fi' >> /usr/bin/openboard
+		chmod +x /usr/bin/openboard
+
+
+	;;
+	remove)
+
+		apt-get remove -y openboard
+		TEST=$( dpkg-query -s  openboard 2> /dev/null| grep Status | cut -d " " -f 4 )
+		if [ "$TEST" == 'installed' ];then
+			exit 1
+		fi
+				
+	;;	
+esac
