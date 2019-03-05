@@ -1,3 +1,9 @@
+zero-lliurex-openboard (0.7) bionic; urgency=medium
+
+  * Changed adm group by sudo
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 05 Mar 2019 15:21:24 +0100
+
 zero-lliurex-openboard (0.6) bionic; urgency=medium
 
   * Initial release for bionic
