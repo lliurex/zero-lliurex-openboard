@@ -1,6 +1,6 @@
 {
 	"type":"apt",
-	"pkg_list": [{"name":"openboard","key_store":"zero-lliurex-openboard","custom_icon":"openboard.svg"}], 
+	"pkg_list": [{"name":"openboard","key_store":"zero-lliurex-openboard","custom_icon":"openboard.svg","custom_name":"Openboard: interactive whiteboard"}], 
 	"script": {"name":"/usr/share/zero-lliurex-openboard/openboard_script", "remove":true},
 	"custom_icon_path":"/usr/share/icons/lliurex/apps/48/",
 	"zomando":"zero-lliurex-openboard"
