@@ -1,3 +1,9 @@
+zero-lliurex-openboard (0.8.2) bionic-updates; urgency=medium
+
+  * Allow all groups
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 09 Nov 2022 14:52:52 +0100
+
 zero-lliurex-openboard (0.8.1) bionic-updates; urgency=medium
 
   * Added custom name in epi file
