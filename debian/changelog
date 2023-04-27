@@ -1,3 +1,9 @@
+zero-lliurex-openboard (0.19.3) focal; urgency=medium
+
+  * Cancel automatic update message.
+
+ -- Daniel Duran <daduve@gmail.com>  Thu, 27 Apr 2023 18:59:14 +0200
+
 zero-lliurex-openboard (0.19.2) lliurex22; urgency=medium
 
   * Allow all groups 
