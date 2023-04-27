@@ -29,6 +29,15 @@ case $ACTION in
 		echo 'fi' >> /usr/bin/openboard
 		chmod +x /usr/bin/openboard
 
+		file='/opt/openboard/etc/OpenBoard.config'
+		if [[ -f $file ]]; then
+			echo 'Adapting config file....'
+			sed -i 's/EnableAutomaticSoftwareUpdates=true/EnableAutomaticSoftwareUpdates=false/gi' $file
+			sed -i 's/EnableSoftwareUpdates=true/EnableSoftwareUpdates=false/gi' $file
+		else
+			echo 'Config file not exixts, do nothing.'
+		fi
+
 
 	;;
 	remove)
