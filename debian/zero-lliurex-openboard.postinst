@@ -21,7 +21,7 @@ set -e
 case "$1" in
     configure)
 	    file='/opt/openboard/etc/OpenBoard.config'
-            if [[ -f $file ]]; then
+            if [ -f $file ]; then
                 echo 'Adapting config file....'
                 sed -i 's/EnableAutomaticSoftwareUpdates=true/EnableAutomaticSoftwareUpdates=false/gi' $file
                 sed -i 's/EnableSoftwareUpdates=true/EnableSoftwareUpdates=false/gi' $file
