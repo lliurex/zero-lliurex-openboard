@@ -1,3 +1,9 @@
+zero-lliurex-openboard (0.19.3lliurex23) jammy; urgency=medium
+
+  * Jammy release
+
+ -- Juanma1980 <juanma1980@gmail.com>  Thu, 07 Sep 2023 11:45:51 +0200
+
 zero-lliurex-openboard (0.19.3) focal; urgency=medium
 
   * Cancel automatic update message.
