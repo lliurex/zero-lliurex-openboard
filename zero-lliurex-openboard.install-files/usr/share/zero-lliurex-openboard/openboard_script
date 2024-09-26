@@ -19,15 +19,15 @@ case $ACTION in
 
 	postInstall)
 
-		mv /usr/bin/openboard /usr/bin/openboard_orig
-		echo '#!/bin/bash' > /usr/bin/openboard
-		echo 'if [[ $LANG = *"@"* ]]; ' >> /usr/bin/openboard
-		echo 'then' >> /usr/bin/openboard
-		echo 'LANG=ca_ES.UTF-8; /usr/bin/openboard_orig $1' >> /usr/bin/openboard
-		echo 'else' >> /usr/bin/openboard
-		echo '/usr/bin/openboard_orig' >> /usr/bin/openboard
-		echo 'fi' >> /usr/bin/openboard
-		chmod +x /usr/bin/openboard
+		mv /usr/bin/OpenBoard /usr/bin/OpenBoard_orig
+		echo '#!/bin/bash' > /usr/bin/OpenBoard
+		echo 'if [[ $LANG = *"@"* ]]; ' >> /usr/bin/OpenBoard
+		echo 'then' >> /usr/bin/OpenBoard
+		echo 'LANG=ca_ES.UTF-8; /usr/bin/OpenBoard_orig $1' >> /usr/bin/OpenBoard
+		echo 'else' >> /usr/bin/OpenBoard
+		echo '/usr/bin/OpenBoard_orig' >> /usr/bin/OpenBoard
+		echo 'fi' >> /usr/bin/OpenBoard
+		chmod +x /usr/bin/OpenBoard
 
 		file='/opt/openboard/etc/OpenBoard.config'
 		if [ -f $file ]; then
@@ -45,7 +45,13 @@ case $ACTION in
 		apt-get remove -y openboard
 		TEST=$( dpkg-query -s  openboard 2> /dev/null| grep Status | cut -d " " -f 4 )
 		if [ "$TEST" == 'installed' ];then
+
 			exit 1
+		else
+			file='usr/bin/OpenBoard'
+			if [ -f $file ]; then
+				rm -f $file
+			fi
 		fi
 				
 	;;	
