@@ -1,3 +1,9 @@
+zero-lliurex-openboard (0.19.25) noble; urgency=medium
+
+  * Fixed app file
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Mon, 12 May 2025 10:28:52 +0200
+
 zero-lliurex-openboard (0.19.24) noble; urgency=medium
 
   * Added key to hide zomando
