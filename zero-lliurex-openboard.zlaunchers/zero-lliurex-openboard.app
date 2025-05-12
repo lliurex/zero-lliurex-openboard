@@ -15,5 +15,4 @@ Groups=sudo;admins;teachers
 Using=pkexec
 Service=True
 Modal=True
-Gnome-terminal=True
 Show=False
